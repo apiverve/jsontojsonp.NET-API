@@ -5,6 +5,7 @@ using System.Text;
 namespace APIVerve
 {
     public class JSONtoJSONPQueryOptions {
-public string json { get; set; }
+public string Callback { get; set; }
+public object Json { get; set; }
 }
 }
